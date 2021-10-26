@@ -2,7 +2,7 @@ require("dotenv").config();
 const Express = require("express");
 const app = Express();
 const dbConnect = require("./db");
-const jwt = require("jsonwebtoken");
+// const jwt = require("jsonwebtoken");
 
 app.use(Express.json());
 app.use(require("./middleware/headers"));
